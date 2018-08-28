@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			input{width: 100px; height: 30px; background:blue; margin-left: 20px; color: white; border: none;}
+			div{ width: 200px; height: 200px;background: wheat; margin-top: 20px;}
+		</style>
+	</head>
+	<body>
+		<input type="button" id="show" value="显示" />	
+		<input type="button" id="hide" value="隐藏" />
+		<div id="oDiv">
+			
+		</div>
+		
+	</body>
+	
+	<script type="text/javascript">
+		
+		var show_btn = document.getElementById('show');
+		var hide_btn = document.getElementById('hide');
+		var Odiv = document.getElementById('oDiv');
+		
+		show_btn.onclick = function(){
+			Odiv.style.display = 'block';
+		}
+		
+		function hide(){
+			Odiv.style.display = 'none';
+		}
+		
+	//	show_btn.onclick = show;
+		
+		hide_btn.onclick = hide;
+		
+
+
+/*			js 中如何获取元素		1.通过id名称来获取
+			document.getElementById('');
+		
+		
+		事件:鼠标事件、键盘事件、系统事件、表单事件、自定义事件...
+		onclick
+		onmouseover
+		onmouseout
+		onmouseup
+		onmousedown
+		onmousemove    就像是鼠标抚摸一样的事件
+		...
+		
+		onload   加载完一会执行
+		window.onload = 事件
+		img.onload
+		body.onload
+		
+		函数:可以理解为-命令，做一些事~~
+		
+		function abc(){  }  函数不会主动执行
+		
+		调用函数：
+		1.直接调用： abc();
+		2.事件调用: 元素.事件 = 函数名      oDiv.onclick = abc;  (函数不加小括号)
+		
+		function (){}  匿名函数 
+		原始.事件 = function (){};
+		
+		测试：
+		alert(1);   带一个确定按钮的警告框
+		alert('ok');   'ok' 字符串
+		alert("ok");
+		
+		变量：
+		var li = document.getElementById('lis');
+		var num = 123;
+		var name = 'leo';
+
+*/
+	</script>
+	
+	
+</html>

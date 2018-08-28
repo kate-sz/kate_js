@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			.gmn_cart {
+	width: 130px;
+	height: 200px;
+	background: blue;
+	z-index: 1;
+	right: 5px;
+	visibility: visible;
+	position:fixed;
+	top: 200px;
+	border: 1px solid #7CBB12;
+}
+.ss12{ width: 100px; height: 8000px; background: red;}
+
+.back_top{
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+    border:1px solid #888;
+}
+
+
+
+		</style>
+		<script src="jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		
+	<div id="TplFloatPic_1" class="gmn_cart">
+		
+	</div>
+	<div class="ss12">
+		
+	</div>
+	<button id="back_to_top" class="back_top">返回顶部</button>
+	
+	
+
+<script>
+   var fm=document.getElementById("TplFloatPic_1");
+function moveCart(){
+		var hy = (document.documentElement.scrollTop || document.body.scrollTop)+120;
+		fm.style.top = hy+'px';
+	}
+setInterval(moveCart(),30);
+
+
+
+//  var backButton=$('.back_to_top');
+//  function backToTop() {
+//      $('html,body').animate({
+//          scrollTop: 0
+//      }, 800);
+//  }
+//  backButton.on('click', backToTop);
+// 
+//  $(window).on('scroll', function () {/*当滚动条的垂直位置大于浏览器所能看到的页面的那部分的高度时，回到顶部按钮就显示 */
+//      if ($(window).scrollTop() > $(window).height())
+//          backButton.fadeIn();
+//      else
+//          backButton.fadeOut();
+//  });
+//  $(window).trigger('scroll');/*触发滚动事件，避免刷新的时候显示回到顶部按钮*/
+//
+//
+<script>
+    $(function () {
+        // 获取要大于的高度
+        var headheight = $('.back_top').height();
+        window.onscroll=function () {
+            //获取浏览器滚轴滚动的距离
+            var scrollTop = $(window).scrollTop();
+            //当浏览器滚轴滚动的距离 大于 设定的高度时 显示“点击返回顶部”按钮，否则隐藏
+            if(scrollTop > headheight) {
+                $('.back_top').show()
+            } else {
+                $('.back_top').hide()
+            }
+        };
+       //点击返回顶部500ms的滑动效果
+        $('.back_top').on('click',function () {
+            $('html,body').animate({scrollTop:0},500);
+        })
+    })
+</script>
+
+<!--    jq实现nav导航菜单效果 (不同块状布局)
+
+$(function(){
+							$("#menu_02,#menu_03,#menu_04,#menu_05").hover(
+								function(){
+									$("#"+$(this).attr("id")+"b").css("display","block");
+								},
+								function(){	
+									$("#"+$(this).attr("id")+"b").css("display","none");							
+								}
+							);
+							$("#menu_02b,#menu_03b,#menu_04b,#menu_05b").hover(
+								function(){
+									$(this).css("display","block");
+								},
+								function(){	
+									$(this).css("display","none");							
+								}
+							);
+						})
+						
+						
+				
+				
+-->
+
+
+
+	</body>
+</html>

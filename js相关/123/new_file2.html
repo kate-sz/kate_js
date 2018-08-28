@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ 
+	<head>
+		<meta charset="UTF-8">
+		<title>0</title>
+		<script type="text/javascript" src="../02/jquery-1.7.2.min.js" ></script>
+	</head>
+ 
+	<body>
+		
+		<div id="banner" style="background-image:url(benner/1.jpg); height: 502px;">
+			
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				var x=0;
+				setInterval(function(){
+					x++;
+					$("#banner").css("background-image","url(benner/"+x+".jpg)");
+					if(x==4){
+						x=0;
+					}
+				},2000); 
+			});
+		</script>
+	</body>
+ 
+</html>

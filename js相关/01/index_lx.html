@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body{ position: relative; padding: 0; margin: 0;}
+			input{width: 100px; height: 30px; background:blue; margin-left: 20px; color: white; border: none;}
+			.box000{ width: 200px; height: 200px; background: wheat;}
+			
+			.big_box{ width:100%; height:900px; background:  rgba(0, 0, 0, 0.5); position: absolute; left: 0;top: 0; display: none;}
+			.box001{ width: 480px; height: 340px; position: absolute; left: 50%; top: 50%; margin-left:-240px ; margin-top: -170px; background:rgba(255, 255, 255, 0.5);}
+			.box002{ width: 420px; height:280px; background: white; position: absolute;position: absolute; left: 50%; top: 50%; margin-left:-210px ; margin-top: -140px;}
+			
+			.box002 div{ margin: 0 auto; width: 260px; overflow: hidden; margin-top: 30px;}
+			.box003 span{ width: 120px; text-align: right; float: left;}
+			.box003 input{width: 30px; margin: 0; border: 0; color: white; float: left; margin-left: 10px; background:#F5DEB3;}
+			
+			.box003 .red{ background: red;}
+			.box003 .yellow{background: #f1b921;}
+			.box003 .blue{background: blue;}
+			
+			.box004 span{ width: 100px;  height: 30px; }
+			.box004 input { width: 60px; text-align: center;}
+			
+			.hide_box{display: none;}
+			
+		</style>
+	</head>
+	<body>
+		<input type="button" id="show" value="修改" />	
+		
+		<div id="oDiv" class="box000">
+			
+		</div>
+		
+		
+		<div id="big_box" class="big_box">
+			<div class="box001">
+				<div class="box002">
+					<div class="box003">
+						<span >
+							选择背景色：
+						</span>
+						<input class="red" type="button" id="red" value="红" />
+						<input class="yellow" type="button" id="yellow" value="黄" />
+						<input class="blue" type="button" id="blue" value="蓝" />
+					</div>
+					<div class="box003">
+						<span >
+							选择宽(px)：
+						</span>
+						<input type="button" id="w200" value="200" />
+						<input type="button" id="w300" value="300" />
+						<input type="button" id="w400" value="400" />
+					</div>
+					<div class="box003">
+						<span >
+							选择高(px)：
+						</span>
+						<input type="button" id="h200" value="200" />
+						<input type="button" id="h300" value="300" />
+						<input type="button" id="h400" value="400" />
+					</div>
+					<div class="box004 box003">
+						<span >
+							
+						</span>
+						<input type="button" id="qx" value="恢复" />
+						<input type="button" id="qd" value="确定" />
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+	</body>
+	
+	<script type="text/javascript">
+		
+		var show_btn = document.getElementById('show');
+		var Odiv = document.getElementById('oDiv');
+		var oBig_box = document.getElementById('big_box');
+		
+		var red_btn = document.getElementById('red');
+		var yellow_btn = document.getElementById('yellow');
+		var blue_btn = document.getElementById('blue');
+		
+		var w200_btn = document.getElementById('w200');
+		var w300_btn = document.getElementById('w300');
+		var w400_btn = document.getElementById('w400');
+		
+		var h200_btn = document.getElementById('h200');
+		var h300_btn = document.getElementById('h300');
+		var h400_btn = document.getElementById('h400');
+		
+		var qx_btn = document.getElementById('qx');
+		var qd_btn = document.getElementById('qd');
+		
+		show_btn.onclick = function(){
+			oBig_box.style.display = 'block';
+		}
+		
+		
+		red_btn.onclick = function(){
+			Odiv.style.background = 'red';
+		}
+		yellow_btn.onclick = function(){
+			Odiv.style.background = 'yellow';
+		}
+		blue_btn.onclick = function(){
+			Odiv.style.background = 'blue';
+		}
+		
+		w200_btn.onclick = function(){
+			Odiv.style.width = '200px';
+		}
+		w300_btn.onclick = function(){
+			Odiv.style.width = '300px';
+		}
+		w400_btn.onclick = function(){
+			Odiv.style.width = '400px';
+		}
+		
+		h200_btn.onclick = function(){
+			Odiv.style.height = '200px';
+		}
+		h300_btn.onclick = function(){
+			Odiv.style.height = '300px';
+		}
+		h400_btn.onclick = function(){
+			Odiv.style.height = '400px';
+		}
+		
+		
+		qx_btn.onclick = function(){
+			Odiv.style.height = '200px';
+			Odiv.style.width = '200px';
+			Odiv.style.background = 'wheat';
+			oBig_box.style.display = 'none';
+	//		Odiv.className = 'box000';
+	//		oBig_box.className = 'hide_box';
+
+		}
+		
+		qd_btn.onclick = function(){
+			oBig_box.style.display = 'none';
+			
+			
+		}
+		
+		
+		
+		
+		
+		function hide(){
+			Odiv.style.display = 'none';
+		}
+		
+	//	show_btn.onclick = show;
+		
+		hide_btn.onclick = hide;
+		
+
+
+/*			js 中如何获取元素		1.通过id名称来获取
+			document.getElementById('');
+		
+		
+		事件:鼠标事件、键盘事件、系统事件、表单事件、自定义事件...
+		onclick
+		onmouseover
+		onmouseout
+		onmouseup
+		onmousedown
+		onmousemove    就像是鼠标抚摸一样的事件
+		...
+		
+		onload   加载完一会执行
+		window.onload = 事件
+		img.onload
+		body.onload
+		
+		函数:可以理解为-命令，做一些事~~
+		
+		function abc(){  }  函数不会主动执行
+		
+		调用函数：
+		1.直接调用： abc();
+		2.事件调用: 元素.事件 = 函数名      oDiv.onclick = abc;  (函数不加小括号)
+		
+		function (){}  匿名函数 
+		原始.事件 = function (){};
+		
+		测试：
+		alert(1);   带一个确定按钮的警告框
+		alert('ok');   'ok' 字符串
+		alert("ok");
+		
+		变量：
+		var li = document.getElementById('lis');
+		var num = 123;
+		var name = 'leo';
+
+*/
+	</script>
+	
+	
+</html>

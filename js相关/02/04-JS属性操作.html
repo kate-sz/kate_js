@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div {
+				width: 240px;
+				height: 240px;
+				border: solid 1px #888888;
+				background: #f1f1f1;
+				padding: 10px;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){
+				var oBt = document.getElementById('btn1');
+				var otext = document.getElementById('text1');
+				var oDiv = document.getElementById('div1 ');
+				
+				oBt.onclick = function(){
+					
+					oDiv.innerHTML = oDiv.innerHTML + otext.value + '<br />';
+					otext.value = '';
+				}
+				
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<div id="div1">
+
+		</div>
+		<span id="span1">
+		怀光
+		</span>
+		<input type="text" name="text1" id="text1" value="" />
+		<input type="button" name="btn1" id="btn1" value="按钮" />
+	</body>
+
+</html>

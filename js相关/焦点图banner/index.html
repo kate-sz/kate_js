@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+    <title>练习</title>
+<style type="text/css">
+    /*banner*/
+.slideBox{ position:relative; overflow:hidden; margin:0px auto; /* 设置焦点图最大宽度 */ text-align: center;}
+.slideBox .hd{ position:absolute; height:28px; line-height:28px; bottom:0; z-index:1; display: inline-block;left:40%;}
+.slideBox .hd li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#333; text-indent:-9999px; overflow:hidden; margin:0 6px;   }
+.slideBox .hd li.on{ background:#fff;  }
+.slideBox .bd{ position:relative; z-index:0; }
+.slideBox .bd li{ position:relative; text-align:center;  }
+.slideBox .bd li img{ background:url(images/loading.gif) center center no-repeat;  vertical-align:top; width:100%;/* 图片宽度100%，达到自适应效果 */}
+.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0);  }  /* 去掉链接触摸高亮 */
+.slideBox .bd li .tit{ display:block; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:url(images/focusBg.png) repeat-x; color:#fff;  text-align:left;  }
+    
+/*banner end*/
+</style>
+</head>
+<body>
+<!-- 焦点图 -->
+<div id="slideBox" class="slideBox">
+    <div class="bd">
+        <ul>
+            <li>
+                <a class="pic" href="#"><img src="images/banner_1.jpg"/></a>
+            </li>
+            <li>
+                <a class="pic" href="#"><img src="images/banner_1.jpg"/></a>
+            </li>
+            <li>
+                <a class="pic" href="#"><img src="images/banner_1.jpg"/></a>
+            </li>
+            <li>
+                <a class="pic" href="#"><img src="images/banner_1.jpg"/></a>
+            </li>
+        </ul>
+    </div>
+    <div class="hd">
+        <ul></ul>
+    </div>
+</div>
+
+// 轮播图
+
+
+<script type="text/javascript">
+    TouchSlide({ 
+        slideCell:"#slideBox",
+        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell:".bd ul", 
+        effect:"leftLoop", 
+        autoPage:true,//自动分页
+        autoPlay:true, //自动播放
+        delayTime:1000*1.5,//毫秒；切换效果持续时间（执行一次效果用多少毫秒）
+        interTime:1000*4 //毫秒；自动运行间隔（隔多少毫秒后执行下一个效果）
+    });
+</script>
+
+<script type="text/javascript">
+    TouchSlide({ 
+        slideCell:"#slideBox",
+        titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell:".bd ul", 
+        effect:"leftLoop", 
+        autoPage:true,//自动分页
+        autoPlay:true,//自动播放
+        delayTime:1000*1.5,//毫秒；切换效果持续时间（执行一次效果用多少毫秒）
+        interTime:1000*4 //毫秒；自动运行间隔（隔多少毫秒后执行下一个效果）
+    });
+    
+</script>
+</body>
+</html>

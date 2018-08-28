@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 
+		<script type="text/javascript">
+			/*
+			html 属性 操作： 读 、 写
+			
+			属性名
+			属性值
+			
+			属性读操作： 获取、找到
+				元素.属性名
+			
+			字符串链接
+			'淘宝' + '杭州'  => '淘宝杭州'
+			'淘宝' +'在' + '杭州'  => '淘宝在杭州'
+			 
+			 
+			 属性写操作： （添加）、替换 、 修改
+			 	元素.属性名 = 新的值
+			 
+			 
+			 
+			 */
+			
+			window.onload = function(){
+				var oBtn = document.getElementById("btn1");
+				var oText = document.getElementById("text1");
+				var oSelect = document.getElementById('select1');
+				
+				oBtn.onclick = function(){
+					/*alert(oText.value);   */
+					
+					//alert(oSelect.value);
+					
+					alert(oText.value + '在' + oSelect.value);
+				}
+				
+			}
+			
+		</script>
+		
+	</head>
+	<body>
+	<input type="text" name=" " id="text1" value="" />	
+	
+	<select id="select1" name="">
+		<option value="北京">北京</option>
+		<option value="上海">上海</option>
+		<option value="杭州">杭州</option>
+		<option value="深圳">深圳</option>
+	</select>
+	
+	<input type="button" name=" " id="btn1" value="按钮" />
+	
+		
+	</body>
+</html>
