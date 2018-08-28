@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+		</style>
+		
+
+	</head>
+
+	<body>
+		<img class="" id="img1" src="img/04.jpg"/>
+		<input id="inp1" type="button" />
+		<script type="text/javascript">
+			//所以的相对路径别拿来做判断！！！
+			// src  
+			// href 
+			//颜色值不要做判断！！！
+			//  color: red  #f00  rgb(255.0.0)
+			//innerHTML值别拿来做判断！！！
+			
+			
+			// 对于改变浮动那点事
+		//	ODiv.style.float = "left";
+			// IE(styleFloat) 、 非IE (cssFloat)
+			
+			ODiv.style.styleFloat = "left";
+			ODiv.style.cssFloat = "left";
+			
+		// 可以回避着写问题，解决到兼容性问题  添加一个class  
+		
+			var oInp = document.getElementById("inp1");
+			oInp.onclick = function(){
+				oInp.type = "checkbox";
+				//  IE6 IE7 IE8 会报错，不建议这样做
+				//  可换个思路，比如在此之前做好两个按钮，点击之后 显示隐藏
+				
+			};
+			
+			
+			
+			var oImg = document.getElementById("img1")
+			
+			
+			oImg.onclick = function(){
+				// alert(oImg.src);
+				if (oImg.src == "img/04.jpg") {
+					
+				}
+			};
+			
+		</script>
+	</body>
+
+</html>

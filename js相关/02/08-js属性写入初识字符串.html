@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 100px;
+				border:  solid 1px #333333;
+			}
+		</style>
+		
+
+	</head>
+
+	<body>
+请输入属性名称：<input id="attr" type="text" />
+请输入属性值：<input id="val" type="text" />
+<input id="bt2" type="button" value="确定" />
+<div id="div1" class="">
+	
+</div>
+
+		<script type="text/javascript">
+	var oAttr = document.getElementById("attr");		
+	var oVal = document.getElementById("val");	
+	var oBtn = document.getElementById("bt2");	
+	var ODiv = document.getElementById("div1");
+	
+	oBtn.onclick = function(){
+		oAttr.value   //"width"
+		oVal.value    //"200px"
+		
+// ODiv.style.width = oVal.value;		
+// ==>错误示范	ODiv.style.oAttr.value = oVal.value;	
+
+//“ . ”后面的值无法修改  ==> 可换成 " []"  字符串
+
+// js中允许吧"." 替换成 "[]"  且无兼容性问题
+
+		ODiv.style[oAttr.value] = oVal.value;
+	
+	};
+	
+	
+	
+		</script>
+	</body>
+
+</html>

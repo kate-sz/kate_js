@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div {
+				width: 240px;
+				height: 240px;
+				border: solid 1px #888888;
+				background: #f1f1f1;
+				padding: 10px;
+			}
+			.blue{background: blue; color: white;}
+			.red{ background: red;color: white;}
+			
+		</style>
+		<script type="text/javascript">
+			window.onload = function() {
+				var oBtblue = document.getElementById('blue');
+				var oBtred = document.getElementById('red');
+				var oDiv = document.getElementById('div1');
+				
+				oBtblue.onclick = function(){
+					oDiv.className = "blue"
+				};
+				oBtred.onclick = function(){
+					oDiv.className = "red"
+				};
+
+
+		//js中不允许出现"-"
+		//font-size    ==>  fontSize
+		//padding-top  ==>  paddingTop 
+
+
+
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<div id="div1">
+			新加坡《联合早报》8月28日报道称，25日逝世的美国资深参议员麦凯恩生前曾写下一封“遗言”，对美国总统特朗普进行了最后一次抨击，并在周一(27日)由他参选总统时的竞选经理读出。当中他再次针对特朗普，批评在他治下美国充满“部落式竞争”，呼吁美国人不要为目前的困难气馁。
+		</div>
+		<input type="button" name="text1" id="blue" value="blue" />
+		<input type="button" name="btn1" id="red" value="red" />
+	</body>
+
+</html>
