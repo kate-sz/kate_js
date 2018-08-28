@@ -17,12 +17,16 @@
 			window.onload = function(){
 				var oBt = document.getElementById('btn1');
 				var otext = document.getElementById('text1');
-				var oDiv = document.getElementById('div1 ');
-				
+				var oDiv = document.getElementById('div1');
 				oBt.onclick = function(){
 					
-					oDiv.innerHTML = oDiv.innerHTML + otext.value + '<br />';
-					otext.value = '';
+			//	oDiv.innerHTML = oDiv.innerHTML + otext.value + '<br />';
+					//alert(11);
+				// console.info(otext.value);
+				
+				//oDiv.innerHTML =  ;
+			oDiv.innerHTML = oDiv.innerHTML + otext.value +  "<br />" ;
+			otext.value = "";
 				}
 				
 			}
@@ -32,7 +36,6 @@
 
 	<body>
 		<div id="div1">
-
 		</div>
 		<span id="span1">
 		怀光
