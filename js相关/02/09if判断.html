@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div {
+				width: 240px;
+				height: 240px;
+				border: solid 1px #888888;
+				background: #f1f1f1;
+				padding: 10px;
+			}
+		</style>
+		
+
+	</head>
+
+	<body>
+		<div id="div1">
+			新加坡《联合早报》8月28日报道称，25日逝世的美国资深参议员麦凯恩生前曾写下一封“遗言”，对美国总统特朗普进行了最后一次抨击，并在周一(27日)由他参选总统时的竞选经理读出。当中他再次针对特朗普，批评在他治下美国充满“部落式竞争”，呼吁美国人不要为目前的困难气馁。
+		</div>
+		<input type="button" name="text1" id="btnjian" value="-" />
+		<input type="button" name="btn1" id="btnjia" value="+" />
+		
+		
+<script type="text/javascript">
+	/*if(条件){
+		
+	};
+	
+	if (条件) {
+		
+	} else{
+		
+	};
+	
+	if (条件1) {
+		
+	} else if (条件2) {
+		
+	} else if (条件3) {
+		
+	} else{
+		
+	}{
+		
+	}{
+		
+	};
+	*/
+	var oBtjian = document.getElementById('btnjian');
+				var oBtjia = document.getElementById('btnjia');
+				var oDiv = document.getElementById('div1');
+				
+				var num = 16;
+				oBtjia.onclick = function(){
+					if(num<22){
+						num++;
+						oDiv.style.fontSize = num + "px";
+					//	alert(num);
+					}
+				};
+				oBtjian.onclick = function(){
+					if(num>12){
+						num--;
+					oDiv.style.fontSize = num + "px";
+					};
+				};
+
+</script>
+	</body>
+
+</html>

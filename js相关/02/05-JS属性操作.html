@@ -25,10 +25,14 @@
 				// console.info(otext.value);
 				
 				//oDiv.innerHTML =  ;
-			oDiv.innerHTML = oDiv.innerHTML + otext.value +  "<br />" ;
-			otext.value = "";
-				}
 				
+				if (otext.value=="") {
+					alert("请输入点内容把！！！")
+				} else{
+					oDiv.innerHTML = oDiv.innerHTML + otext.value +  "<br />" ;
+				otext.value = "";
+				}
+				}
 			}
 		</script>
 

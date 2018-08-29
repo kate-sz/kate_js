@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+		</style>
+		
+
+	</head>
+
+	<body>
+		<img class="" id="img1" src="img/04.jpg"/>
+		<script type="text/javascript">
+			var oImg = document.getElementById("img1");
+			var i = true;  //开关 ： 布尔值  ： true  真  ==> 1
+							// 				false  假 ==> 0	
+			oImg.onclick = function(){
+				// alert(oImg.src);
+				
+				if (i) {
+					oImg.src="img/03.jpg";
+					i=false;
+				}else{
+					oImg.src="img/04.jpg";
+					i=true;
+				}
+			};
+			
+		</script>
+	</body>
+
+</html>
