@@ -1,0 +1,187 @@
+/****************************  通用样式  **********************/
+
+body {
+	font-size: 13px;
+	font-family: "微软雅黑", "arial, helvetica, sans-serif";
+	color: #333333;
+}
+.btn-register { 
+  color: #FFFFFF; 
+  background-color: #0AB4F7; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-register:hover, 
+.btn-register:focus, 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  color: #FFFFFF; 
+  background-color: #086DF2; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-register:active, 
+.btn-register.active, 
+.open .dropdown-toggle.btn-register { 
+  background-image: none; 
+} 
+ 
+.btn-register.disabled, 
+.btn-register[disabled], 
+fieldset[disabled] .btn-register, 
+.btn-register.disabled:hover, 
+.btn-register[disabled]:hover, 
+fieldset[disabled] .btn-register:hover, 
+.btn-register.disabled:focus, 
+.btn-register[disabled]:focus, 
+fieldset[disabled] .btn-register:focus, 
+.btn-register.disabled:active, 
+.btn-register[disabled]:active, 
+fieldset[disabled] .btn-register:active, 
+.btn-register.disabled.active, 
+.btn-register[disabled].active, 
+fieldset[disabled] .btn-register.active { 
+  background-color: #0AB4F7; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-register .badge { 
+  color: #0AB4F7; 
+  background-color: #FFFFFF; 
+}
+
+
+/*设置icon字体*/
+@font-face {
+	font-family:lk;
+	src: url("../fonts/lk.eot") format("embeedded-opentype");
+		 url("../fonts/lk.svg") format("svg");
+	 	 url("../fonts/lk.ttf") format("truetype");
+		 url("../fonts/lk.woff") format("woff");
+	
+}
+
+/* 凡是已  "icon" 开头的类 都可以匹配到样式  
+ * [class^="icon-"]  ==> 只能匹配最前一个是以"icon"开头的类
+ * 			*/
+[class^="icon-"],
+[class*=" icon-"]{
+	font-family: lk;
+	font-style: normal;
+	background: red;
+}
+
+
+/*通用样式*/
+
+
+/******************************  媒体查询  ******************************/
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.container {
+		width: 970px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+
+
+/****************************  头部样式  **********************/
+
+
+#lk_header .top-bar{
+	margin: 0 auto;
+	height: 40px;
+	border-bottom: 1px solid #E0E0E0;
+	line-height: 39px;
+}
+
+
+#lk_header .top-bar .container .row>div+div{
+	border-left: solid 1px #E0E0E0;
+}
+#lk_header .top-bar .container .row .top-bar-1 a{
+	position: relative;
+	text-decoration: none;
+}
+#lk_header .top-bar .container .row .top-bar-1 a img{
+	display: none;
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -10px;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a:hover img{
+	display: block;
+	z-index: 9999;
+}
+/*icon字体引用*/
+.icon-phone::before{
+	content: '\e958';
+	font-size: 13px;
+}
+.icon-phone::before{
+	content: '\e942';
+	font-size: 13px;
+}
+
+#lk_header .navbar-lk{
+	background: #FFFFFF;
+	margin-bottom: 0;
+}
+
+
+#lk_header .navbar-lk .navbar-brand{
+	height: 70px;
+	padding: 10px 15px;
+}
+#lk_header .navbar-lk .navbar-nav a{
+	height: 70px;
+	line-height: 40px;
+}
+
+#lk_header .navbar-lk .navbar-nav li.active a,
+#lk_header .navbar-lk .navbar-nav li a:hover{
+	background-color: transparent;
+	border-bottom: 2px solid #0AB4F7;
+}
+
+
+#lk_header .navbar-lk .navbar-toggle {
+ 
+    margin-top: 18px;
+
+    }
+
+
+
+
+
+/****************************  /头部样式  **********************/
+
+
+/****************************  banner样式  **********************/
+
+
+
+
+
+
