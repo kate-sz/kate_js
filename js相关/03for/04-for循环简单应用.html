@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			li{
+			height:30px;
+			border-bottom: 1px solid #333333;	
+			}
+		</style>
+	</head>
+	<body>
+
+		<ul id="list">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+
+
+<script type="text/javascript">
+
+	var oUl = document.getElementById("list");
+	var aLi = oUl.getElementsByTagName("li");
+	
+	var arr = ["今天","明天","后台"]
+	
+	
+/*	简单重复的写法	
+	aLi[0].onclick = function(){alert(1);};
+	aLi[1].onclick = function(){alert(2);};
+	aLi[2].onclick = function(){alert(3);};
+*/	
+//	aLi.onclick = function(){alert(1);};
+/*	
+	for (var i=0;i<aLi.length; i++) {  // i++ 后不需要加";"  
+		aLi[i].onclick = function(){
+			alert(1);
+//			alert(i); i ==> 3
+		};
+	};
+*/	
+
+	for (var i=0;i<aLi.length; i++) {  
+		aLi[i].innerHTML = arr[i];
+	};
+
+
+
+
+</script>
+
+
+	</body>
+</html>

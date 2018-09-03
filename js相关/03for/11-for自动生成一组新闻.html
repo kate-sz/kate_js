@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<input id="btn1"  type="button" value="自动生成新闻">
+<!-- disabled="disabled" 禁止点击-->
+
+<ul id="list"></ul>
+
+<script>
+	
+  var oBtn = document.getElementById("btn1");
+  var oUl = document.getElementById("list");
+  var arr = ['新闻1','新闻2','新闻3','新闻4','新闻5'];
+	
+	/*
+	 * 点击会出现追加 的解决思路
+	 1.1  disabled="disabled"  <!--css 禁止点击-->
+	 1.2  style.display = "none"  <!--css 隐藏按钮 -->
+	 均可实现，但用户体验差
+	 
+	 2.1先清空，在生成  (性能体验差)
+
+	 3.判断
+	 
+	 * 
+	 * 
+	 * */
+	//3
+    var onOff = true;
+
+    oBtn.onclick = function () {
+   //1.1 	oBtn.disabled = true;
+   //2.1	oUl.innerHTML = '';
+
+        if(onOff==true){
+      //3
+            onOff=false; //ok
+
+            for (var i=0;i<arr.length;i++){
+                oUl.innerHTML += '<li>'+arr[i]+'</li>'
+            }
+           // onOff=false; //ok
+        }
+        // onOff=false; //ok
+
+    }
+
+</script>
+
+
+</body>
+</html>

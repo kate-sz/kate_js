@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+
+<script type="text/javascript">
+
+
+// 循环解决的问题：    
+// 1.重复执行某些代码
+// 2.每次执行的时候，有个数字在变化
+
+// 循环：
+/*
+for(var i=0; i<3;){
+	alert(i);
+	i++;
+}
+*/
+//执行的顺序
+//1.	var i = 0;
+//2.	i<3;	关键！！！    避免死循环 
+//3.	执行括号内的代码
+//4.	i++;	避免死循环的关键!!!
+
+for(var i=0; i<3;){
+	alert(i);
+	i++;
+}
+alert(i); // i ==> 3;  i 在执行完之后会变成 3 
+
+	
+</script>
+
+
+	</body>
+</html>

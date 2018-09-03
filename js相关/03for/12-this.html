@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+// this  这个
+// this : 指的是调用当前方法(函数)的对象
+
+//    alert(this);      object Window
+//window是js"老大"
+window.alert(1);   //完整版
+
+    function fn1() {
+        alert(this);
+    }
+//fn1();  this ==> window
+//window.fn1();
+//oDiv.onclick fn1();  this ==>  oDiv
+/*
+oDiv.onclick = function () {
+    fn1();    //  fn1() 里的this ==> window
+}
+*/
+
+</script>
+
+
+</body>
+</html>

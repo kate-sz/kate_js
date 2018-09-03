@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<input type="button" value="按钮1">
+<input type="button" value="按钮2">
+<input type="button" value="按钮3">
+
+<script>
+
+    var aBtn = document.getElementsByTagName("input");
+    var that = null;
+/*  第一种情况  先给this存储起来，后面的事件在去调用ta
+    for ( var i=0;i<aBtn.length;i++){
+    aBtn[i].onclick = function(){
+    ///    this.style.background = 'yellow';
+     that = this;
+     fn1();
+    }
+    };
+function fn1() {
+    that.style.background = 'yellow';
+}
+*/
+
+
+    for ( var i=0;i<aBtn.length;i++) {
+
+        aBtn[i].onclick = fn1;
+
+        function fn1() {
+            this.style.background = 'red';
+        }
+
+    }
+</script>
+
+
+</body>
+</html>

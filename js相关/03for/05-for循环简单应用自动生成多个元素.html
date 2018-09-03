@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <style type="text/css">
+        li {
+            height: 30px;
+            border-bottom: 1px solid #333333;
+        }
+    </style>
+</head>
+<body>
+
+
+<script type="text/javascript">
+
+
+//    document.body.innerHTML += '<input type = "button" value = "按钮" />';
+
+// 性能会有问题
+   /*
+   for (var i=0;i<200;i++){
+        document.body.innerHTML += '<input type = "button" value = "按钮" />';
+    };
+*/
+
+//  可以先声明一个变量，把需要添加的内容放在这个变量内，在一次性的加入到 html 内
+    var len  =  "";
+    for (var i=0;i<2000;i++){
+        len += '<input type = "button" value = "按钮" />';
+};
+    document.body.innerHTML = len；
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<ul id="list">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<ul id="list">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		
+
+<script type="text/javascript">
+
+//	document.body  //如果页面只有一个该元素，可以直接简写
+//	document.title = 123;  
+
+var aBtn = document.getElementsByTagName("input");
+
+	document.body.innerHTML = "<input type='button' value='按钮' /><input type='button' value='按钮' /><input type='button' value='按钮' />"
+
+//	alert(aBtn.length);
+	
+	aBtn[0].onclick = function(){alert(1);};
+	aBtn[1].onclick = function(){alert(2);};
+	aBtn[2].onclick = function(){alert(3);};
+	
+</script>
+
+
+	</body>
+</html>
