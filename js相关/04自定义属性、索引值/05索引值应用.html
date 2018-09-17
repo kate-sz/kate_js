@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<script type="text/javascript">
+			window.onload = function(){
+				var aBtn = document.getElementsByTagName("input");
+				
+				// 想建立“匹配”“对应”关系， 就用索引值
+				
+				var arr =['小一','小二','小三']
+				
+				for (var i = 0; i < aBtn.length; i++) {
+					aBtn[i].index = i;  // 自定义属性  (索引值)
+					aBtn[i].onclick = function(){
+					//	alert(i);  //3
+					//	alert(this.a);  // 弹出 0,1,2
+					alert(arr[this.index]);
+					this.value = arr[this.index];
+						
+					}
+				}
+				
+			}
+		</script>
+		
+	</head>
+	<body>
+		<input type="button" id="" value="btn1" />
+		<input type="button" id="" value="btn2" />
+		<input type="button" id="" value="btn3" />
+	</body>
+</html>

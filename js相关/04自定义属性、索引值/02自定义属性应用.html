@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			li{
+				list-style: none;
+				width: 74px;
+				height: 87px;
+				background: url(img/02.png);
+				float: left;
+				margin-left: 20px;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function(){
+				var aLi = document.getElementsByTagName("li");
+				//var onOff = true; //只能控制一组
+				
+				for (var i = 0; i < aLi.length; i++) {
+					aLi[i].onOff = true;
+					
+					aLi[i].onclick = function(){
+						
+						if(this.onOff){
+							
+						this.style.background = 'url(img/01.png)';
+						this.onOff = false;
+						
+						}else{
+							
+						this.style.background = 'url(img/02.png)';
+						this.onOff = true;
+						}
+					}
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.onload = function(){
+				var aBtn = document.getElementsByTagName("input");
+				aBtn[0].abc = 123; //自定义属性
+				//alert(aBtn[0].abc);
+				
+				// js可以为任何HTML元素添加任意个 自定义属性
+				
+				for (var i = 0; i < aBtnlength; i++) {
+					aBtn[i].abc = 123;
+					aBtn[i].xyz = true;
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<input type="button" name="" id="" value="按钮" />
+		<input type="button" name="" id="" value="按钮" />
+		<input type="button" name="" id="" value="按钮" />
+	</body>
+</html>
