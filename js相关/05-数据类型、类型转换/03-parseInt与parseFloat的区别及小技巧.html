@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.onload = function() {
+				
+				// Number()  整体转换成数字
+				
+				//parseInt() 从左至右逐个进行转换  一旦遇到非数字 的 则会终止   不认小数点    符号可加
+				//parseInt(a,10)   10  ==> 代表的是 10 进制 
+				//parseFloat() 认小数点
+				
+				var a = '100';
+				//alert(a+100);  //'100100'
+				//alert(Number(a)+100);  // 100+100  ==> 200
+				
+				var a1 = '';
+				//alert(Number(a1));   //0
+				
+				var a2 = true;
+				//alert(Number(a2));     // true ==> 1    false ==> 0
+				
+				var a4 = ['123'];
+				//alert(Number(a4));   //  只能转一个
+				
+				var a5 = null;
+				//alert(Number(a5));  //0
+				
+				var b = '100px';
+				// alert(Number(b))			//NaN
+				//alert(parseInt(b));
+				
+				var c = '12.23万元';
+				//alert(parseInt(c));			// 12
+				//alert(parseFloat(c));			//12.23
+				
+				
+				
+				var num = '200.55';
+				
+				if (parseInt(num)==parseFloat(num)) {
+					alert(num + '是整数');
+				} else{
+					alert(num + '是小数');
+				};
+				
+				
+				
+				
+				////////////////  转不了的  ////////
+				
+				
+				var a3 = function(){alert(1);};
+				//alert(Number(a3));      //NaN  
+				
+				var json = {abc:123};
+				//alert(Number(json));      //NaN
+				
+				var a6;
+				//alert(Number(a6));		//NaN
+				
+				
+			}
+		</script>
+	</head>
+
+	<body>
+	</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			window.onload = function() {
+				/*
+				ECMAScript: 标准/核心
+				html 标签类型: block \ inline \ inline-block \ table ...
+				js中的数据类型: number  数字   /  string  字符串  /   布尔值  :  true  false  
+								/   function   函数    /   object对象 ( obj \ [] \ {} \ null )
+								/   undefined  未定义
+				 
+				typeof  判断数据类型
+				
+				
+				*/
+				
+				//number  数字
+				
+				var i = 100;
+				//alert(typeof i);  //number  数字
+				
+				// string  字符串
+
+				var s = 'abcdf'
+				//alert(typeof s);  // string  字符串
+				//alert(s.length);  // 6   空格也会算一个字符串
+				//alert(s.charAt(3)); //  d
+				
+				
+				//布尔值  :  true  false
+
+				var b = true; 		//布尔值  :  true  false
+				//alert(typeof b);  	//boolean
+
+				
+				// function   函数类型
+				
+				var fn = function() {
+					alert(1);
+				};
+				//alert(typeof fn);  	// function   函数类型
+				//alert(fn); 	    //function(){alert(1);}
+				//alert(fn()); 
+				//function fn2() {alert(2);};
+				//alert(fn2);    // function fn2() {alert(2);}
+				
+				
+				//object对象
+				
+				//var obj = window;
+				var obj = document;
+				//alert(typeof obj);    // object  对象 
+				//obj.abc = 123;   		//自定义属性  只要不是空的对象 都可以添加
+				//alert(document.abc);
+				
+				//obj.fn3 = function(){alert(3);};
+				//obj.fn3();
+				
+				var arr = [1,2,3,4];
+				//alert(arr.length);
+				//arr[2]=345;
+				//alert(arr);
+				//arr.push(5,6,7);  往数组后面塞东西
+				//alert(arr);
+				
+				var json = {num:1,name:'xiaoV',age:6,};
+				//alert(json.name);
+				
+				var n = null;
+				//alert(typeof n);   //object
+				
+				var u;
+				//alert(typeof u);   // undefined  未定义
+				//alert(u);
+				//大部分情况表示你写的程序出问题了。
+				
+			}
+		</script>
+	</head>
+
+	<body>
+	</body>
+
+</html>

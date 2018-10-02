@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>jQuery文字逐行向上滚动代码</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<style>
+
+</style>
+</head>
+<body>
+<div class="recordList"> 
+<ul class="tpl-rotate-recordList" style="margin-top: 0px;"> 
+<li>
+恭1喜187****5204获得1000RBM 
+</li> 
+<li>
+恭2喜137****1372获得1000RBM 
+</li> 
+<li>
+恭3喜156****0276获得1000RBM 
+</li> 
+<li>
+恭4喜139****9856获得1000RBM 
+</li> 
+<li>
+恭5喜136****0580获得1000RBM 
+</li> 
+<li>
+恭6喜136****0580获得1000RBM 
+</li> 
+<li>
+恭7喜138****8118获得1000RBM 
+</li> 
+<li>
+恭8喜136****5555获得1000RBM 
+</li> 
+<li>
+恭9喜136****0580获得1000RBM 
+</li> 
+<li>
+恭10喜136****0580获得1000RBM 
+</li> 
+</ul> 
+</div>
+ 
+<script type="text/javascript"> 
+   /*自动轮换xuyw*/ 
+	var AutoScroll = function(a) { 
+	$(a).find("ul:first").animate( {   //选中UL即为需要移动的内容
+	marginTop : "-20px" 
+	}, 500, function() { 
+	$(this).css( { 
+	marginTop : "0px" 
+	}).find("li:first").appendTo(this)   // 改选中内容下的第一个li(子内容)
+	}) 
+	} 
+	if ($(".recordList ul li").length > 0) {    
+	setInterval('AutoScroll(".recordList")', 2000) 
+	} else { 
+	$(".recordList").hide()     //外面嵌套的大盒子
+	} 
+</script> 
+</body>
+</html>

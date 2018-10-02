@@ -1,0 +1,3 @@
+.swiper-container,{ height: 502px; overflow: hidden; }
+.swiper-wrapper{ position: relative;}
+.swiper-wrapper img{display: block;  height: 502px; width: 100%;  }

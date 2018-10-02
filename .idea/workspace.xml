@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebe5e00-de2f-41b3-9273-ada45ecab849" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/06-for循环计算元素的坐标.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/07-for循环计算元素的坐标V.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/08-for嵌套for.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/09-for嵌套for查找.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/10-for嵌套for查找.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/11-for自动生成一组新闻.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/12-this.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/13-this的应用.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js相关/03for/14-this的小实列.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/css/new_file.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/css/swiper-3.4.2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/js/swiper-3.4.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/xiaog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/images/banner_1 - 副本.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/images/banner_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/js/TouchSlide.1.1.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js相关/04自定义属性、索引值/07图片切换.html" afterPath="$PROJECT_DIR$/js相关/04自定义属性、索引值/07图片切换.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,13 +29,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="14-this的小实列.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js相关/03for/14-this的小实列.html">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="281" column="39" lean-forward="true" selection-start-line="281" selection-start-column="39" selection-end-line="281" selection-end-column="39" />
+              <folding>
+                <marker date="1538300567118" expanded="true" signature="38408:38623" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="38495:38595" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="38715:39145" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="38849:39117" ph="..." />
+                <marker date="1538300567118" expanded="false" signature="38918:38955" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="43546:44011" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="43732:43984" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="43846:43954" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="44428:44723" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="44599:44696" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="46141:46474" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="46296:46447" ph="..." />
+                <marker date="1538300567118" expanded="false" signature="46381:46393" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="47183:47512" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="47334:47485" ph="..." />
+                <marker date="1538300567118" expanded="false" signature="47419:47431" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="48052:48372" ph="..." />
+                <marker date="1538300567118" expanded="true" signature="48195:48345" ph="..." />
+                <marker date="1538300567118" expanded="false" signature="48279:48291" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +78,7 @@
         <option value="$PROJECT_DIR$/js相关/03for/12-this.html" />
         <option value="$PROJECT_DIR$/js相关/03for/13-this的应用.html" />
         <option value="$PROJECT_DIR$/js相关/03for/14-this的小实列.html" />
+        <option value="D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html" />
       </list>
     </option>
   </component>
@@ -64,9 +88,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="402" />
-    <option name="y" value="52" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="320" />
+    <option name="y" value="65" />
     <option name="width" value="1271" />
     <option name="height" value="887" />
   </component>
@@ -86,7 +110,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,10 +132,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/01文件相关/01工作项目文件相关/cp29_Admin" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="zz&#9;null&#9;null" />
@@ -150,12 +174,15 @@
       <workItem from="1535885919071" duration="4683000" />
       <workItem from="1535941692354" duration="2000" />
       <workItem from="1535941701786" duration="4793000" />
-      <workItem from="1535951991054" duration="4606000" />
+      <workItem from="1535951991054" duration="5517000" />
+      <workItem from="1536046440714" duration="29000" />
+      <workItem from="1536823354258" duration="1242000" />
+      <workItem from="1538300532477" duration="637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14084000" />
+    <option name="totallyTimeSpent" value="16903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -167,19 +194,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="52" width="1271" height="887" extended-state="1" />
-    <editor active="true" />
+    <frame x="320" y="65" width="1271" height="887" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10624493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.192" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27980536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.272" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18558078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27236316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -202,11 +228,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js相关/03for/14-this的小实列.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js相关/03for/11-for自动生成一组新闻.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -270,7 +302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -299,7 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="47" column="54" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -307,7 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
           <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -315,15 +344,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js相关/03for/14-this的小实列.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="385">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="281" column="39" lean-forward="true" selection-start-line="281" selection-start-column="39" selection-end-line="281" selection-end-column="39" />
+          <folding>
+            <marker date="1538300567118" expanded="true" signature="38408:38623" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="38495:38595" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="38715:39145" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="38849:39117" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="38918:38955" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="43546:44011" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="43732:43984" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="43846:43954" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="44428:44723" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="44599:44696" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="46141:46474" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="46296:46447" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="46381:46393" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="47183:47512" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="47334:47485" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="47419:47431" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="48052:48372" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="48195:48345" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="48279:48291" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
