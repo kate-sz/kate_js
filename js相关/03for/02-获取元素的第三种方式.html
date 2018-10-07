@@ -28,10 +28,16 @@ var aBtn = document.getElementsByTagName("input");
 
 //	alert(aBtn.length);
 	
-	aBtn[0].onclick = function(){alert(1);};
-	aBtn[1].onclick = function(){alert(2);};
-	aBtn[2].onclick = function(){alert(3);};
-	
+//	aBtn[0].onclick = function(){alert(1);};
+//	aBtn[1].onclick = function(){alert(2);};
+//	aBtn[2].onclick = function(){alert(3);};
+//	
+	for (var i = 0; i < aBtn.length; i++) {
+		aBtn[i].onclick = function(){ alert(i); };
+	}
+
+
+
 </script>
 
 

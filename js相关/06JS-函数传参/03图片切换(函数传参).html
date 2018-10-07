@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			body{background: #333333;}
+			ul{
+				padding: 0;
+				margin: 0;
+			}
+			li{
+				list-style: none;
+			}
+			.pic{width: 400px;height: 500px;position: relative;  margin-right: 100px; float:left;}
+			.pic img{ width: 400px; height: 500px;}
+			.pic ul{position: absolute;top: 0; right: -50px; width: 40px;}
+			.pic li{width: 40px;height: 40px;margin-bottom: 4px;background: #666;}
+			.pic .active{background: #FCF8E3;}
+			.pic p,.pic span{width: 400px;height: 30px;line-height: 30px;text-align:center;
+			color: white;position: absolute;left: 0;background-color:rgba(0,0,0,0.5);}
+			.pic p{top: 0; margin: 0; }
+			.pic span{bottom: 0;}
+		</style>
+		
+		<script type="text/javascript">
+			
+			/*
+			 函数传参
+			 
+			 重用代码：
+			 1.尽量保证html代码结构一致  ， 可以通过父级来选取子元素
+			 2.把核心主程序实现，用函数包裹起来
+			 3.把每组不同的值找出来，通过函数传参实现
+			 
+			 */
+			
+			
+			window.onload = function(){
+				fnTag('pic1',['img/03.jpg','img/04.jpg','img/05.jpg','img/06.jpg'],'onclick');
+				fnTag('pic2',['img/04.jpg','img/05.jpg','img/06.jpg'],'onmouseover');
+			};
+			
+			
+			function fnTag(a,arrUrl,evt){
+				var oDiv = document.getElementById(a);
+				var oImg = oDiv.getElementsByTagName('img')[0];
+				var oSpan = oDiv.getElementsByTagName('span')[0];
+				var oP = oDiv.getElementsByTagName('p')[0];
+				var oUl = oDiv.getElementsByTagName('ul')[0];
+				var aLi = oUl.getElementsByTagName('li');
+				
+				var arrText = ['01','02','03','04']
+				
+				var num = 0;
+				var oldLi = null;
+				
+				
+ 				for (var i = 0; i < arrUrl.length; i++) {
+					oUl.innerHTML += '<li></li>';
+				};
+				 
+				oldLi = aLi[num];
+				
+				//初始化
+				oImg.src = arrUrl[num];
+				oSpan.innerHTML = 1+ num + '/' + arrUrl.length;
+				oP.innerHTML = arrText[num];
+				aLi[num].className = 'active';
+				
+				
+				for (var i = 0; i < aLi.length; i++) {
+					
+					aLi[i].index = i;  //索引值
+					aLi[i][evt] = function(){
+					//	alert(this.index);
+					oImg.src = arrUrl[this.index];
+					oP.innerHTML = arrText[this.index];
+					oSpan.innerHTML =  1 + this.index + '/' + arrUrl.length;
+					
+								
+				// 思路一： 全部清空，当前添加
+				
+//				for (var i = 0; i < aLi.length; i++) {
+//					aLi[i].className = '';
+//				}
+//				this.className = 'active';	
+//				
+				// 思路二： 清空上个，当前添加
+				
+				//  ??.className = '';
+				oldLi.className = '';
+				oldLi = this;
+				this.className = 'active';
+					};
+				};
+			}
+		</script>
+		
+	</head>
+	<body>
+		<div id="pic1" class="pic">
+			<img src=""/>
+			<p>文字正在加载中...</p>
+			<span>图片正在加载中</span>
+			<ul>
+			</ul>
+		</div>
+		<div id="pic2" class="pic">
+			<img src=""/>
+			<p>文字正在加载中...</p>
+			<span>图片正在加载中</span>
+			<ul>
+			</ul>
+		</div>
+	</body>
+</html>

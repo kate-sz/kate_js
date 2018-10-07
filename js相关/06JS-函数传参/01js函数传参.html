@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			/*
+			 函数传参   ==> 函数传递参数
+			JS的数据类型  
+			
+			数字、字符串、布尔、函数、对象、未定义
+			 
+			 */
+			//数字
+			/*
+			fn1(100);
+			function fn1(a){
+				alert(a);
+			};
+			*/
+			/*
+			fn1(100,'px');
+			function fn1(a,b){
+				alert(a+b);
+			};
+			*/
+			//字符串
+			/*
+			fn2('niko');
+			fn2('abcdefg');
+			function fn2(a){
+				alert(a.charAt(2));			// 弹出字符串第三个
+			};
+			*/
+			
+			//函数
+			
+//			fn3(function(a){alert(a);});
+//			function fn3(fn){
+//				fn(100/*a*/);
+//			};
+			
+			/*
+			function fn4(){
+				alert(4);
+			};
+			
+			fn3(fn4);
+			function fn3(fn){
+				fn();
+			};
+			*/
+			
+			//对象
+			fn5(window,document);
+			function fn5(w,d){
+				w.onload = function(){
+					d.body.innerHTML=123;
+				};
+			};
+			
+		</script>
+	</head>
+
+	<body>
+	</body>
+
+</html>
