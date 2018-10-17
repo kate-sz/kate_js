@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+    <!--layui-->
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../frame/layui/css/layui.css">
+
+    <!-- Bootstrap -->
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="../frame/bootstrap3/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row nav-center">
+        <div class="col-md-2 col-xs-2 text-center b-red">
+            <a href="#">
+		  	<span>
+		  	logo
+		  	</span>
+            </a>
+        </div>
+        <div class="col-md-8 col-xs-8 text-center b-blue">
+	  	<span>
+	  		title
+	  	</span>
+        </div>
+        <div class="col-md-2 col-xs-2 text-center b-yellow">
+            <a href="javascript:;">
+	  		<span>
+		  	logo
+		  	</span>
+            </a>
+        </div>
+    </div>
+
+    <!--banner-->
+    <div class="row">
+        <div class="layui-carousel" id="banner-box">
+            <div carousel-item>
+                <div>banner图1</div>
+                <div>banner图2</div>
+                <div>banner图3</div>
+                <div>banner图4</div>
+                <div>banner图5</div>
+                <div>banner图6</div>
+            </div>
+        </div>
+    </div>
+
+    <!--文字滚动  css3-->
+    <div class="row">
+        <div class="roll-text-ov">
+            <span class="roll-text-icon">++</span>
+            <div class="roll-text-box">
+                <a class="roll-text">这是一段滚动文字55555sss</a>
+            </div>
+        </div>
+    </div>
+
+    <!--路径导航-->
+
+    <div class="row">
+        <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ol>
+    </div>
+
+    <!--标签导航-->
+    <div class="row">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills" role="tablist">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a>
+            </li>
+            <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                                       data-toggle="tab">Messages</a></li>
+            <li role="presentation"><a href="#settings" aria-controls="settings" role="tab"
+                                       data-toggle="tab">Settings</a></li>
+            <li role="presentation" class="dropdown pull-right">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    Dropdown <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="home">1...</div>
+            <div role="tabpanel" class="tab-pane" id="profile">2...</div>
+            <div role="tabpanel" class="tab-pane" id="messages">3...</div>
+            <div role="tabpanel" class="tab-pane" id="settings">4...</div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <table id="table" lay-filter="test"></table>
+    </div>
+</div>
+
+
+<!--layui-->
+<script src="../frame/layui/layui.js"></script>
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="../frame/js/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>-->
+<script src="../frame/bootstrap3/js/bootstrap.min.js"></script>
+
+<script>
+    //一般直接写在一个js文件中
+
+    // banner
+    layui.use('carousel', function () {
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#banner-box' //指向容器选择器，如：elem: '#id'。也可以是DOM对象
+            , width: '100%' //设置容器宽度
+            , arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+            , autoplay: 'true' //是否自动切换
+            //,interval:'3000' //自动切换的时间间隔，单位：ms（毫秒），不能低于800
+        });
+    });
+
+    //标签页
+
+    $('#myTabs a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
+
+    $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+    $('#myTabs a:first').tab('show') // Select first tab
+    $('#myTabs a:last').tab('show') // Select last tab
+    $('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
+
+</script>
+
+<script>
+    layui.use('table', function () {
+        var table = layui.table;
+
+        //第一个实例
+        table.render({
+            elem: '#table'
+            , height: 312
+            , url: '/demo/table/user/' //数据接口
+            , page: true //开启分页
+            , cols: [[ //表头
+                {field: 'id', title: 'ID', width: 80, sort: true, fixed: 'left'}
+                , {field: 'username', title: '用户名', width: 80}
+                , {field: 'sex', title: '性别', width: 80, sort: true}
+                , {field: 'city', title: '城市', width: 80}
+                , {field: 'sign', title: '签名', width: 177}
+                , {field: 'experience', title: '积分', width: 80, sort: true}
+                , {field: 'score', title: '评分', width: 80, sort: true}
+                , {field: 'classify', title: '职业', width: 80}
+                , {field: 'wealth', title: '财富', width: 135, sort: true}
+            ]]
+        });
+
+    });
+</script>
+
+</body>
+</html>

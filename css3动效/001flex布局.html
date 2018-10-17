@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			div{
+				display: flex;
+				width: 100%;
+				height: 120px;
+				margin-bottom: 10px;
+				background: red;
+				
+			}
+			span{
+				width: 60px;
+				height: 60px;
+				display: inline-block;
+				background: blue;
+				margin: 10px;
+			}
+			.div1{
+				justify-content: center;
+				flex-wrap:wrap;
+			}
+			.div2{
+				justify-content: center;
+				flex-direction: column;
+			}
+			.div3{
+				flex-wrap:wrap:
+				align-items:center;
+				justify-content: space-around;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="div1">
+			<span style="order: 1;">1</span>
+			<span style="order: 3;">2</span>
+			<span style="order: 2;">3</span>
+			<span style="order: 1;">4</span>
+			<span style="order: 3;">5</span>
+			<span style="order: 2;">6</span>
+			<span style="order: 1;">7</span>
+			<span style="order: 3;">8</span>
+			<span style="order: 2;">9</span>
+		</div>
+		<div class="div2">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+			<span>5</span>
+			<span>6</span>
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+		</div>
+		<div class="div3">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span style="height: 80px;">4</span>
+			<span>5</span>
+			<span>6</span>
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+		</div>
+	</body>
+</html>

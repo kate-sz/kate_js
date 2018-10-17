@@ -2,21 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bebe5e00-de2f-41b3-9273-ada45ecab849" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/css/new_file.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/css/swiper-3.4.2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/img/banner/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/js/swiper-3.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/效果/xiaog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/images/banner_1 - 副本.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/images/banner_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js相关/焦点图banner/js/TouchSlide.1.1.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web框架/001/html/new-1.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/css/amazeui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/fonts/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/images/coin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/images/success1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/images/wechatpay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/images/ys_head2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/images/zfbpay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/jquery插件库.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/js/amazeui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/js/jquery-2.1.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/js/ui-choose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22amaze-uiChongzhi2431201712242107/amaze-uiChongzhi/www.jq22.com.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/css/hexagons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/img/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/jquery插件库.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3-image-grid-layout9314201703082234/css3-image-grid-layout/www.jq22.com.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/img/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/img/name.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/img/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/jquery插件库.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/js/particles.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22css3Signin7915201809181038/css3Signin/www.jq22.com.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/ad.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/4G+80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/5c_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/MIX_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/compare.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/hm4_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/hm4x_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/hmn4x_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/holder_110.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/holder_40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/max2_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/mifenka-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/mimobile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/xm5S-plus_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/xm5_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/xm5s_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/xm6_80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/icon/xmNOTE2_80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/mi-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/mi_lg_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/img/slogan2016.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/js/holder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/js/holder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/js/jquery-3.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/效果相关/脚本/jq22jQueryMoban6476201708222337/jQueryMoban/www.jq22.com.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js相关/04自定义属性、索引值/07图片切换.html" afterPath="$PROJECT_DIR$/js相关/04自定义属性、索引值/07图片切换.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js相关/123/new_file.html" afterPath="$PROJECT_DIR$/js相关/123/new_file.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js相关/123/new_file3.html" afterPath="$PROJECT_DIR$/js相关/123/new_file3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/效果相关/焦点图banner宽高100%适应效果/xiaog.html" afterPath="$PROJECT_DIR$/效果相关/焦点图banner宽高100%适应效果/xiaog.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,38 +90,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="new-1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web框架/001/html/new-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="281" column="39" lean-forward="true" selection-start-line="281" selection-start-column="39" selection-end-line="281" selection-end-column="39" />
-              <folding>
-                <marker date="1538300567118" expanded="true" signature="38408:38623" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="38495:38595" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="38715:39145" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="38849:39117" ph="..." />
-                <marker date="1538300567118" expanded="false" signature="38918:38955" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="43546:44011" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="43732:43984" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="43846:43954" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="44428:44723" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="44599:44696" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="46141:46474" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="46296:46447" ph="..." />
-                <marker date="1538300567118" expanded="false" signature="46381:46393" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="47183:47512" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="47334:47485" ph="..." />
-                <marker date="1538300567118" expanded="false" signature="47419:47431" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="48052:48372" ph="..." />
-                <marker date="1538300567118" expanded="true" signature="48195:48345" ph="..." />
-                <marker date="1538300567118" expanded="false" signature="48279:48291" ph="..." />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,6 +132,11 @@
         <option value="$PROJECT_DIR$/js相关/03for/13-this的应用.html" />
         <option value="$PROJECT_DIR$/js相关/03for/14-this的小实列.html" />
         <option value="D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html" />
+        <option value="$PROJECT_DIR$/js相关/123/new_file.html" />
+        <option value="$PROJECT_DIR$/js相关/123/new_file3.html" />
+        <option value="$PROJECT_DIR$/web框架/layer-ui/001/html/001.html" />
+        <option value="$PROJECT_DIR$/web框架/001/html/new-1.html" />
+        <option value="$PROJECT_DIR$/web框架/001/html/index.html" />
       </list>
     </option>
   </component>
@@ -88,10 +146,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="320" />
-    <option name="y" value="65" />
-    <option name="width" value="1271" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="219" />
+    <option name="y" value="51" />
+    <option name="width" value="1440" />
     <option name="height" value="887" />
   </component>
   <component name="ProjectView">
@@ -109,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,18 +177,26 @@
             <path>
               <item name="kate_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="kate_js" type="462c0819:PsiDirectoryNode" />
-              <item name="js相关" type="462c0819:PsiDirectoryNode" />
+              <item name="web框架" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kate_js" type="b2602c69:ProjectViewProjectNode" />
               <item name="kate_js" type="462c0819:PsiDirectoryNode" />
-              <item name="js相关" type="462c0819:PsiDirectoryNode" />
-              <item name="03for" type="462c0819:PsiDirectoryNode" />
+              <item name="web框架" type="462c0819:PsiDirectoryNode" />
+              <item name="001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kate_js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kate_js" type="462c0819:PsiDirectoryNode" />
+              <item name="web框架" type="462c0819:PsiDirectoryNode" />
+              <item name="001" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -140,6 +205,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="zz&#9;null&#9;null" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -178,11 +244,12 @@
       <workItem from="1536046440714" duration="29000" />
       <workItem from="1536823354258" duration="1242000" />
       <workItem from="1538300532477" duration="637000" />
+      <workItem from="1539745765249" duration="8117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16903000" />
+    <option name="totallyTimeSpent" value="25020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,18 +261,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="65" width="1271" height="887" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27980536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.272" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1332982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18607181" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18558078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18498367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27236316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27203482" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -228,6 +296,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1538300567118" expanded="true" signature="38408:38623" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="38495:38595" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="38715:39145" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="38849:39117" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="38918:38955" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="43546:44011" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="43732:43984" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="43846:43954" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="44428:44723" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="44599:44696" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="46141:46474" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="46296:46447" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="46381:46393" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="47183:47512" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="47334:47485" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="47419:47431" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="48052:48372" ph="..." />
+            <marker date="1538300567118" expanded="true" signature="48195:48345" ph="..." />
+            <marker date="1538300567118" expanded="false" signature="48279:48291" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js相关/03for/14-this的小实列.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -356,8 +452,8 @@
     </entry>
     <entry file="file://D:/01文件相关/01工作项目文件相关/CP29-Versioni2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="281" column="39" lean-forward="true" selection-start-line="281" selection-start-column="39" selection-end-line="281" selection-end-column="39" />
+        <state relative-caret-position="269">
+          <caret line="266" column="19" lean-forward="true" selection-start-line="266" selection-start-column="19" selection-end-line="266" selection-end-column="19" />
           <folding>
             <marker date="1538300567118" expanded="true" signature="38408:38623" ph="..." />
             <marker date="1538300567118" expanded="true" signature="38495:38595" ph="..." />
@@ -379,6 +475,56 @@
             <marker date="1538300567118" expanded="true" signature="48195:48345" ph="..." />
             <marker date="1538300567118" expanded="false" signature="48279:48291" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js相关/123/new_file3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js相关/123/new_file4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js相关/123/new_file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web框架/layer-ui/001/html/001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web框架/001/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web框架/001/html/new-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,86 @@
+.b-red{
+	background: red;
+}
+.b-blue{
+	background: blue;
+}
+.b-yellow{
+	background: yellow;
+}
+
+
+
+/*nav*/
+.nav-center{
+	
+}
+
+.nav-center div{
+	padding: 0;
+}
+
+.nav-center span{
+	line-height: 40px;
+}
+
+/*文字滚动*/
+.roll-text-ov{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+.roll-text-icon{
+ 	position: absolute;
+	width: 20px;
+	
+}
+.roll-text-box{
+	width: 100%;
+    padding-left: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+.roll-text{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	line-height: 30px;
+	left: 0;
+	animation:rolltext 5s infinite;
+	-moz-animation:rolltext 5s infinite; /* Firefox */
+	-webkit-animation:rolltext 5s infinite; /* Safari and Chrome */
+	-o-animation:mymove 5s infinite; /* Opera */
+}
+.roll-text:hover{
+	animation-play-state:paused;
+	-webkit-animation-play-state:paused; /* Safari 和 Chrome */
+}
+
+@keyframes rolltext{
+	from{left: 600px;}
+	to{left: 0px;}
+}
+@-moz-keyframes rolltext /* Firefox */
+{
+	from{left: 600px;}
+	to{left: 0px;}
+}
+@-webkit-keyframes rolltext /* Safari 和 Chrome */
+{
+	from{left: 600px;}
+	to{left: 0px;}
+}
+@-o-keyframes rolltext /* Opera */
+{
+	from{left: 600px;}
+	to{left: 0px;}
+}
+
+
+
+
+
+
+
+

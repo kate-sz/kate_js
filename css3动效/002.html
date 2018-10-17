@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			body{
+				position: relative;
+			}
+			div{
+				float: left;
+				width: 100px;
+				height: 100px;
+				background: red;
+				margin: 10px;
+				position:absolute;
+				
+			}
+			/*--------------------mymove > div2----------------------*/
+			.div2{
+				left: 200px;
+				/*最终动画停止坐标*/
+				animation:mymove 3s;
+				/*定义动画名称 、 时长*/
+				animation-iteration-count:1;
+				/*定义动画次数*/
+				/* Safari and Chrome */
+				-webkit-animation:mymove 3s;
+				-webkit-animation-iteration-count:1;
+				
+				/*
+				animation-play-state:running;
+				-webkit-animation-play-state:paused; /* Safari 和 Chrome */
+				
+				/* 	属性规定动画正在运行还是暂停
+		 	 		paused	规定动画已暂停。	
+					running	规定动画正在播放。
+				*/
+				animation-direction:alternate;
+				-webkit-animation-direction:alternate; /* Safari 和 Chrome */
+				
+				
+			}
+			/*--------------------mymove > div3----------------------*/
+			.div3{
+				top: 110px;
+				left: 200px;
+				animation:mymovediv3 infinite;
+				/* infinite > 无限次重复 */
+				animation-duration:2s;
+				/*定义动画时长*/
+				animation-iteration-count:1;
+				/*定义动画次数*/
+				/* Safari and Chrome */
+				-webkit-animation:mymove infinite;
+				-webkit-animation-duration:2s;
+				-webkit-animation-iteration-count:1;
+			}
+			/*--------------------mymove > div3----------------------*/
+			.div4{
+				top: 220px;
+				left: 200px;
+				animation:mymovediv3 infinite;
+				/* infinite > 无限次重复 */
+				animation-duration:2s;
+				/*定义动画时长*/
+				/*animation-iteration-count:1;
+				/*定义动画次数*/
+				/* Safari and Chrome */
+				-webkit-animation:mymove infinite;
+				-webkit-animation-duration:2s;
+				/*-webkit-animation-iteration-count:1;
+				 */
+				animation-direction:alternate;
+				-webkit-animation-direction:alternate; /* Safari 和 Chrome */
+			}
+			/*--------------------mymove > div2----------------------*/
+			@keyframes mymove
+			{	
+				from {left: 0;}
+				to {left:200px;}
+			}
+			
+			@-webkit-keyframes mymove /*Safari and Chrome*/
+			{	
+				from {left: 0;}
+				to {left:200px;}
+			}
+			/*--------------------mymovediv3 > div3----------------------*/
+			@keyframes mymovediv3
+			{
+			from {top:0px;}
+			to {top:400px;}
+			}
+			
+			@-webkit-keyframes mymovediv3 /* Safari and Chrome */
+			{
+			from {top:0px;}
+			to {top:400px;}
+			}
+			/*--------------------mymovediv4 > div4----------------------*/
+			@keyframes mymovediv4
+			{
+			from {top:0px;}
+			to {top:400px;}
+			}
+			
+			@-webkit-keyframes mymovediv4 /* Safari and Chrome */
+			{
+			from {top:0px;}
+			to {top:400px;}
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div>
+		</div>
+		<div class="div2">
+		</div>
+		<div class="div3">
+		</div>
+		<div class="div4">
+		</div>
+	</body>
+</html>
